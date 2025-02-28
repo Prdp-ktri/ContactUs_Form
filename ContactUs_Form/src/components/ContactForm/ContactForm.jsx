@@ -4,7 +4,7 @@ const ContactForm = () => {
   return (
     <section className={styles.container}>
       <div className={styles.ContactForm}>
-        <button />
+        <button text="VIA SUPPORT CHAT" icon={<MdMessage />} />
       </div>
       <div className={styles.contactImage}></div>
     </section>

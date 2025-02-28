@@ -5,6 +5,7 @@ import "./App.css";
 import Navigation from "./components/Navigation/Navigation.jsx";
 import ContactHeader from "./components/ContactHeader/ContactHeader.jsx";
 import ContactForm from "./components/ContactForm/ContactForm.jsx";
+import Button from "./components/Button/button.jsx";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Navigation />
       <ContactHeader />
       <ContactForm />
+      <Button />
     </div>
   );
 }

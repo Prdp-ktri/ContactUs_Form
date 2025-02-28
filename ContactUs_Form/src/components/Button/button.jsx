@@ -1,13 +1,13 @@
 import { MdMessage } from "react-icons/md";
 import styles from "./button.module.css";
-
-const button = () => {
+const Button = (props) => {
+  console.log(props);
   return (
     <button className={styles.primary_btn}>
-      <MdMessage />
+      <MdMessage fontSize="24px" />
       VIA SUPPORT CHAT
     </button>
   );
 };
 
-export default button;
+export default Button;
