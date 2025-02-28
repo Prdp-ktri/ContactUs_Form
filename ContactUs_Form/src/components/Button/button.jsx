@@ -5,7 +5,7 @@ const button = () => {
   return (
     <button className={styles.primary_btn}>
       <MdMessage />
-      Button
+      VIA SUPPORT CHAT
     </button>
   );
 };
