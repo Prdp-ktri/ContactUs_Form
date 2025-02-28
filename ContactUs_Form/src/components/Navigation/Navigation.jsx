@@ -1,8 +1,10 @@
+import styles from './Navigation.module.css'
+
 const Navigation = () => {
   return (
-    <nav className="container">
+    <nav className={`${styles.navigation} container`}>
       <div className="logo">
-        <img src="/images/logo.png" alt="Do Some Coding Logo"/>
+        <img src="/images/logo.png" alt="Do Some Coding Logo" />
       </div>
 
       <ul>
@@ -11,7 +13,7 @@ const Navigation = () => {
         <li>Contact</li>
       </ul>
     </nav>
-  )
+  );
 }
 
 export default Navigation;
